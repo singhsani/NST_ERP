@@ -27,6 +27,7 @@ class LinkedList{
      }
      System.out.print(currNode.data+"  ");
      print(list,currNode.next);
+      System.out.println("Hello");
   }
   public static void main(String[] args){
     LinkedList list=new LinkedList();
